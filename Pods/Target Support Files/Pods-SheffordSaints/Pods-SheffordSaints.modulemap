@@ -1,0 +1,6 @@
+framework module Pods_SheffordSaints {
+  umbrella header "Pods-SheffordSaints-umbrella.h"
+
+  export *
+  module * { export * }
+}

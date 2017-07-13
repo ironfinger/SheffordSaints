@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2F279F375F4A3FE61CBAC4B /* Pods_SheffordSaints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB96A772C7DF63BBA45A34D5 /* Pods_SheffordSaints.framework */; };
+		E33BD5FA1F181C100026DA3B /* MembersSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BD5F91F181C100026DA3B /* MembersSignInViewController.swift */; };
+		E33BD5FD1F1821FF0026DA3B /* member.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BD5FC1F1821FF0026DA3B /* member.swift */; };
+		E33BD5FF1F1824190026DA3B /* MemberAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33BD5FE1F1824190026DA3B /* MemberAreaViewController.swift */; };
 		E375D41C1F18162A00D76FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375D41B1F18162A00D76FDC /* AppDelegate.swift */; };
 		E375D41E1F18162A00D76FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375D41D1F18162A00D76FDC /* ViewController.swift */; };
 		E375D4211F18162A00D76FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375D41F1F18162A00D76FDC /* Main.storyboard */; };
 		E375D4231F18162A00D76FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E375D4221F18162A00D76FDC /* Assets.xcassets */; };
 		E375D4261F18162A00D76FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E375D4241F18162A00D76FDC /* LaunchScreen.storyboard */; };
+		E375D42E1F18180D00D76FDC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E375D42D1F18180D00D76FDC /* GoogleService-Info.plist */; };
+		E375D4311F18194600D76FDC /* CommitteeMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E375D4301F18194600D76FDC /* CommitteeMembersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6BA0138B2B4960A1A939E849 /* Pods-SheffordSaints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheffordSaints.release.xcconfig"; path = "Pods/Target Support Files/Pods-SheffordSaints/Pods-SheffordSaints.release.xcconfig"; sourceTree = "<group>"; };
+		A0E94B8888B5C6EC307C7C67 /* Pods-SheffordSaints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheffordSaints.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SheffordSaints/Pods-SheffordSaints.debug.xcconfig"; sourceTree = "<group>"; };
+		DB96A772C7DF63BBA45A34D5 /* Pods_SheffordSaints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SheffordSaints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33BD5F91F181C100026DA3B /* MembersSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersSignInViewController.swift; sourceTree = "<group>"; };
+		E33BD5FC1F1821FF0026DA3B /* member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = member.swift; sourceTree = "<group>"; };
+		E33BD5FE1F1824190026DA3B /* MemberAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberAreaViewController.swift; sourceTree = "<group>"; };
 		E375D4181F18162A00D76FDC /* SheffordSaints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheffordSaints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E375D41B1F18162A00D76FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E375D41D1F18162A00D76FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		E375D4221F18162A00D76FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E375D4251F18162A00D76FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E375D4271F18162A00D76FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E375D42D1F18180D00D76FDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E375D4301F18194600D76FDC /* CommitteeMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitteeMembersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F279F375F4A3FE61CBAC4B /* Pods_SheffordSaints.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		787A194BE3C2C0B01A82F5C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0E94B8888B5C6EC307C7C67 /* Pods-SheffordSaints.debug.xcconfig */,
+				6BA0138B2B4960A1A939E849 /* Pods-SheffordSaints.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83AD016C84E1EC439ADF56EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB96A772C7DF63BBA45A34D5 /* Pods_SheffordSaints.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E33BD5FB1F1821E20026DA3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E33BD5FC1F1821FF0026DA3B /* member.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E375D40F1F18162A00D76FDC = {
 			isa = PBXGroup;
 			children = (
 				E375D41A1F18162A00D76FDC /* SheffordSaints */,
 				E375D4191F18162A00D76FDC /* Products */,
+				787A194BE3C2C0B01A82F5C8 /* Pods */,
+				83AD016C84E1EC439ADF56EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,27 @@
 		E375D41A1F18162A00D76FDC /* SheffordSaints */ = {
 			isa = PBXGroup;
 			children = (
+				E375D42F1F18192300D76FDC /* ViewControllers */,
+				E33BD5FB1F1821E20026DA3B /* Models */,
 				E375D41B1F18162A00D76FDC /* AppDelegate.swift */,
-				E375D41D1F18162A00D76FDC /* ViewController.swift */,
 				E375D41F1F18162A00D76FDC /* Main.storyboard */,
 				E375D4221F18162A00D76FDC /* Assets.xcassets */,
 				E375D4241F18162A00D76FDC /* LaunchScreen.storyboard */,
 				E375D4271F18162A00D76FDC /* Info.plist */,
+				E375D42D1F18180D00D76FDC /* GoogleService-Info.plist */,
 			);
 			path = SheffordSaints;
+			sourceTree = "<group>";
+		};
+		E375D42F1F18192300D76FDC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E375D4301F18194600D76FDC /* CommitteeMembersViewController.swift */,
+				E375D41D1F18162A00D76FDC /* ViewController.swift */,
+				E33BD5F91F181C100026DA3B /* MembersSignInViewController.swift */,
+				E33BD5FE1F1824190026DA3B /* MemberAreaViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E375D42A1F18162A00D76FDC /* Build configuration list for PBXNativeTarget "SheffordSaints" */;
 			buildPhases = (
+				170F0E37D60A81FC2B264759 /* [CP] Check Pods Manifest.lock */,
 				E375D4141F18162A00D76FDC /* Sources */,
 				E375D4151F18162A00D76FDC /* Frameworks */,
 				E375D4161F18162A00D76FDC /* Resources */,
+				24F6E79B2654E7C90EBA9B82 /* [CP] Embed Pods Frameworks */,
+				A277520DE6CA1769B39E6CB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E375D4261F18162A00D76FDC /* LaunchScreen.storyboard in Resources */,
+				E375D42E1F18180D00D76FDC /* GoogleService-Info.plist in Resources */,
 				E375D4231F18162A00D76FDC /* Assets.xcassets in Resources */,
 				E375D4211F18162A00D76FDC /* Main.storyboard in Resources */,
 			);
@@ -130,12 +189,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		170F0E37D60A81FC2B264759 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24F6E79B2654E7C90EBA9B82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SheffordSaints/Pods-SheffordSaints-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A277520DE6CA1769B39E6CB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SheffordSaints/Pods-SheffordSaints-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E375D4141F18162A00D76FDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33BD5FD1F1821FF0026DA3B /* member.swift in Sources */,
+				E375D4311F18194600D76FDC /* CommitteeMembersViewController.swift in Sources */,
 				E375D41E1F18162A00D76FDC /* ViewController.swift in Sources */,
+				E33BD5FF1F1824190026DA3B /* MemberAreaViewController.swift in Sources */,
+				E33BD5FA1F181C100026DA3B /* MembersSignInViewController.swift in Sources */,
 				E375D41C1F18162A00D76FDC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +378,7 @@
 		};
 		E375D42B1F18162A00D76FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E94B8888B5C6EC307C7C67 /* Pods-SheffordSaints.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V93YKG2RBT;
@@ -281,6 +393,7 @@
 		};
 		E375D42C1F18162A00D76FDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA0138B2B4960A1A939E849 /* Pods-SheffordSaints.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V93YKG2RBT;
@@ -312,6 +425,7 @@
 				E375D42C1F18162A00D76FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
